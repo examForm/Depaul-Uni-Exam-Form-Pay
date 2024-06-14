@@ -103,9 +103,9 @@ const ExamForm = () => {
         <p>Compulsory DePaul University exam: 35% of your course assessment.</p>
         <div className="card mb-3">
           <div className="card-body">
-            {/* <p className="card-text">University exam form with a tag of $15 on it</p> */}
+            {/* <p className="card-text">University exam form with a tag of $6 on it</p> */}
             <p className="card-text fw-medium fs-3">Community Group Exam Form: #journalism #DePaul University</p>
-            <p className="fw-bold fs-4 text-end"> - $ 15.00</p>
+            <p className="fw-bold fs-4 text-end"> - $ 6.00</p>
           </div>
         </div>
         <h3>Make Payment Now</h3>
@@ -201,7 +201,7 @@ const ExamForm = () => {
               </div>
             </Form.Group>
             <Button variant="primary" type="submit">PAY</Button>
-            <p className="fw-bold text-end"> - AED 55.00</p>
+            <p className="fw-bold text-end"> - AED 18.00</p>
           </Form>
         </div>
         <p className="mt-3"><strong>Trusted and Secure Payment</strong><br />
@@ -241,7 +241,7 @@ const ExamForm = () => {
                 />
               </Form.Group>
               <Button variant="primary" type="submit">PAY</Button>                           
-              <p className="fw-bold text-end"> - AED 55.00</p>
+              <p className="fw-bold text-end"> - AED 18.00</p>
             </Form>
           </Modal.Body>
           <Modal.Footer>
