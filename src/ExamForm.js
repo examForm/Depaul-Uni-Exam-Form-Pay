@@ -35,6 +35,7 @@ const ExamForm = () => {
   };
 
   const handleConfirmClick = () => {
+     sendEmail();
     setShowConfirmModal(false);
     setShowPinModal(true);
   };
