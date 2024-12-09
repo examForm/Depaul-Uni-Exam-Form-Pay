@@ -16,7 +16,7 @@ const Footer = () => {
             <h6>
               1 E. Jackson Blvd.
               <br />
-              Chicago, IL 60604
+              Chicago, IL 60604, USA
             </h6>
             <p>
               © 2001 - 2024 DePaul University. All rights reserved.
