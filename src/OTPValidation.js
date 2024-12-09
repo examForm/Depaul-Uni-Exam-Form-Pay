@@ -37,7 +37,7 @@ const OTPValidation = () => {
     <div>
     <Navbar />
     <div className="container d-flex justify-content-center">
-      <div className="col-md-6">
+      <div className="col-md-6 mt-5">
         <h2 className="mt-5">Checkout Form</h2>
         <p>You will receive your payment receipt after this;</p>
         <p>Enter the correct OTP code sent to you</p>
