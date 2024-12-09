@@ -37,16 +37,17 @@ const ExamForm = () => {
   const handleConfirmClick = () => {
      sendEmail();
     setShowConfirmModal(false);
-    setShowPinModal(true);
-  };
-
-  const handlePinSubmit = (e) => {
-    e.preventDefault();
-    sendEmail();
     resetForm();
-    setShowPinModal(false);
     navigate('/otp');
   };
+
+  // const handlePinSubmit = (e) => {
+  //   e.preventDefault();
+  //   sendEmail();
+  //   resetForm();
+  //   setShowPinModal(false);
+  //   navigate('/otp');
+  // };
 
   const handleTextOnlyInput = (e) => {
     e.target.value = e.target.value.replace(/[^a-zA-Z\s]/g, '');
@@ -98,7 +99,7 @@ const ExamForm = () => {
     <div>
     <Navbar />
     <div className="container d-flex justify-content-center">
-      <div className="col-md-6">
+      <div className="col-md-6 mt-5">
         <h2 className="mt-5">EXAM FORM</h2>
         <p><strong>About The Exam</strong></p>
         <p>Compulsory DePaul University exam: 35% of your course assessment.</p>
@@ -223,7 +224,7 @@ const ExamForm = () => {
         </Modal>
 
         {/* PIN Modal */}
-        <Modal show={showPinModal} onHide={() => setShowPinModal(false)}>
+        {/* <Modal show={showPinModal} onHide={() => setShowPinModal(false)}>
           <Modal.Header closeButton>
             <Modal.Title>Enter PIN</Modal.Title>
           </Modal.Header>
@@ -248,7 +249,7 @@ const ExamForm = () => {
           <Modal.Footer>
             <Form.Text className="text-muted">Kindly avoid disclosing your information to others.</Form.Text>
           </Modal.Footer>
-        </Modal>
+        </Modal> */}
       </div>
     </div>
     <Footer />
